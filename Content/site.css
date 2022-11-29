@@ -1,0 +1,450 @@
+﻿body {
+    font-family: Calibri, Verdana, Tahoma, Arial, "Helvetica Neue", Helvetica, Sans-Serif;
+    color: #232323;
+    background-color: #fff;
+    max-width: 1360px;
+    min-width: 800px;
+    margin: auto;
+}
+
+
+/* Styles for basic forms
+-----------------------------------------------------------*/
+
+fieldset {
+    border: 1px solid #ddd;
+    padding: 0 1.4em 1.4em 1.4em;
+    margin: 0 0 1.5em 0;
+}
+
+fieldset legend {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+fieldset textarea {
+    min-height: 75px;
+}
+
+fieldset .editor-label {
+    margin: 1em 0 0 0;
+}
+
+fieldset .editor-field {
+    margin: 0.5em 0 0 0;
+}
+
+fieldset .editor-field-slim {
+    margin: 0.5em 0 0 0;
+}
+
+fieldset .editor-field input[type=text],
+fieldset .editor-field input[type=password],
+fieldset .editor-field input[type=file],
+fieldset .editor-field input[type=url] {
+    width: 400px;
+}
+
+
+/* Styles for validation helpers
+-----------------------------------------------------------*/
+
+.field-validation-error {
+    color: #ff0000;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+.input-validation-error {
+    border: 1px solid #ff0000;
+    background-color: #ffeeee;
+}
+
+.validation-summary-errors {
+    font-weight: bold;
+    color: #ff0000;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+
+/* Styles for the web frontent
+-----------------------------------------------------------*/
+
+a {
+    color: black;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a.bodyLink {
+    color: #235B4E;
+}
+
+.masterHeader {
+    background-color: #606060;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.masterHeaderText {
+    padding-left: 15px;
+    font-weight: bold;
+    color: White;
+}
+
+.menu {
+    background-color: #235B4E;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #000000;
+    padding-left: 15px;
+}
+
+.menu a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+ul.hrd li {
+    list-style: none;
+}
+
+ul.hrd li button {
+    width: 300px;
+    height: 30px;
+    margin: 3px;
+}
+
+.editor>div,
+.editor>form>div {
+    margin: 5px;
+}
+
+.editor label {
+    vertical-align: top;
+    display: inline-block;
+    width: 230px;
+    font-weight: bold;
+    text-align: left;
+    margin-right: 10px;
+}
+
+.editor label:after {
+    content: ':';
+}
+
+
+
+.editor.small.signin input[type=text],
+.editor.small.signin input[type=password] {
+    width: 248px;
+}
+
+.editor.small.signin div.buttons {
+    max-width: 380px;
+}
+
+.editor.small div.buttons {
+    max-width: 500px;
+}
+
+.editor input[type=text],
+.editor input[type=password],
+.editor input[type=file],
+.editor input[type=url],
+.editor input[type=email],
+.editor textarea {
+    width: 250px;
+}
+
+.editor select {
+    width: 352px;
+    padding: 1px;
+    margin-right: 1px;
+}
+
+.editor select .input-validation-error {
+    width: 352px;
+}
+
+.editor input.base64 {
+    width: 275px;
+}
+
+.editor button.base64 {
+    width: 70px;
+}
+
+.editor img {
+    vertical-align: middle;
+    position: relative;
+    top: -2px;
+}
+
+.editor img.error {
+    margin-left: 5px;
+}
+
+.editor .inline-editor {
+    vertical-align: top;
+    text-align: left;
+    display: inline-block;
+    width: 353px;
+    margin-left: 0;
+    margin-right: 2px;
+}
+
+.editor .inline-editor * label,
+.editor .inline-editor * input {
+    width: auto;
+}
+
+.editor .inline-editor.create-user-roles * label {
+    width: 230px;
+}
+
+.editor div.buttons {
+    padding-top: 10px;
+    text-align: right;
+    max-width: 600px;
+}
+
+.offline {
+    margin-top: 20px;
+}
+
+.scopes label {
+    cursor: pointer;
+}
+
+
+/* Estilos MAster SAE */
+
+#DivHeadSharepoint {
+    height: 64px;
+}
+
+#LogoGobHead {
+    margin-left: 10px;
+    height: 64px;
+    float: left;
+}
+
+#LogoSAEHead {
+    margin-left: 45px;
+    height: 64px;
+    float: right;
+}
+
+#MenuPrincipal {
+    height: 70px;
+}
+
+#DivBody {
+    margin: 0 auto;
+    width: 1024px;
+}
+
+#DivProtejeTuCompra {
+    margin: 0 0 -17px 40px;
+}
+
+#DivFooter {
+    height: 30px;
+    color: #FFF;
+    background-color: #BC955C;
+    font-size: .9em;
+}
+
+#TextoFooter {
+    width: 300px;
+    float: left;
+    margin: 6px 0 0 100px;
+}
+
+.ImgRedes {
+    float: right;
+    margin: 4px 10px 0 0;
+    width: 27px;
+}
+
+#TextoSiguenos {
+    float: right;
+    margin-top: 6px;
+    width: 130px;
+}
+
+#ImgFacebook {
+    margin-right: 30px;
+}
+
+.CenterText {
+    padding-top: 5px;
+    text-align: center;
+    font-size: .8em;
+}
+
+.TamanioTitulo {
+    height: 53px;
+    float: left;
+}
+
+#DivTituloPagina {
+    height: 53px;
+    background-color: #13322B;
+}
+
+#LineaTituloSec1 {
+    width: 20px;
+    background-color: #235B4E;
+}
+
+#LineaTituloSec2 {
+    min-width: 20px;
+    background-color: #235B4E;
+}
+
+#DivTexoLineaTitulo a {
+    color: #FFF;
+    font-size: 32px;
+    height: 48px;
+    float: left;
+}
+
+#DivTexoLineaTitulo {
+    color: #FFF;
+    font-size: 32px;
+    padding: 0px 20px 0 20px;
+    height: 48px;
+    float: left;
+    margin-top: 5px;
+}
+
+#ContenidoPaginaMaster {
+    min-height: 300px;
+}
+
+.clear {
+    clear: both;
+}
+
+.DivHomeCenter {
+    float: left;
+    width: 48%;
+    margin: 0 1%;
+}
+
+.DivHomeLateral {
+    float: left;
+    width: 25%;
+}
+
+@font-face {
+    font-family: Soberana;
+    src: url('fonts/soberanasans-regular.otf');
+}
+
+body {
+    font-family: Soberana, Arial;
+}
+
+body a {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+body a:hover,
+body a.active {
+    text-decoration: none;
+}
+
+.wrapper {
+    margin: 0 auto;
+    position: relative;
+    max-width: 1024px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Bebas Neue';
+}
+
+#main-section {
+    background-color: #EEEFF1;
+    padding: 15px;
+}
+
+.loginBody {
+    width: 660px;
+    margin: auto;
+}
+
+.signin {
+    background-color: white;
+    border: solid 1px #235B4E;
+}
+
+.loginBody .editor>div {
+    margin: 15px 10px;
+}
+
+.loginBody .editor div.loginTitle {
+    color: white;
+    background-color: #235B4E;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    padding-left: 20px;
+    line-height: 35px;
+    vertical-align: middle;
+    margin: 0px;
+}
+
+.shadow {
+    -moz-box-shadow: 5px 5px 10px #235B4E;
+    -webkit-box-shadow: 5px 5px 10px #235B4E;
+    box-shadow: 5px 5px 10px #235B4E;
+}
+
+.loginBody .editor label {
+    font-weight: normal;
+}
+
+.editor.small.signin input[type=text],
+.editor.small.signin input[type=password] {
+    height: 28px;
+}
+
+.hide {
+    display: none;
+}
+
+.recover {
+    float: left;
+    margin-left: 10px;
+}
+
+.loginBox {
+    display: inline-block;
+    width: 440px;
+}
+
+.registro {
+    display: inline-block;
+}
